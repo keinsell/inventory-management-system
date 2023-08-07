@@ -1,0 +1,21 @@
+{
+  "name": "inventory-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:migrate:dev": "edgedb migration create",
+    "db:migrate:deploy": "edgedb migrate",
+    "db:dev": "edgedb ui",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "edgedb": "^1.3.4"
+  }
+}
